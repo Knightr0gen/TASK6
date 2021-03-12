@@ -30,7 +30,7 @@ export class AppComponent {
 
       onSubmit(){
         console.log(this.user.value);
-        alert(this.user.value);
+       
       }
 
       get mobiles(){
