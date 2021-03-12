@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+   overflow-y:hidden;
+   overflow-x:hidden;
+   color: rgb(255, 255, 255);
+}
+
+img{
+    overflow-y:hidden;
+    position: absolute;
+    max-height: 100vh;
+    width: 100%;
+    z-index: -10;
+    left: 0%;
+}
+h1{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 37%;
+}
+.first{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 100px;
+   width: 33%;
+}
+.second{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 460px;
+    width: 33%;
+}
+.third{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 860px;
+    width: 33%;
+}
+.lable{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  color: #fff;
+}
+
+
+.in{
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgba(255, 255, 255, 0.589);
+    width: 250px;
+   
+    border-radius: 5px;
+   border-style: none;
+   outline: none;
+    padding: 10px 15px;
+    
+    text-align: center;
+    font-size: 18px;	
+    color: rgb(0, 0, 0);
+    
+    transition-duration: 0.5s;
+font-weight: 500;
+}
+.in:focus{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    
+    color:rgb(0, 0, 0);
+}
+
+.btn{
+    display: block;
+    position: absolute;
+    margin-top: 42%;
+    margin-left: 43%;
+    width: 10%;
+    padding: 0.5%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(26, 93, 218, 0.322);
+    border-style: none;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgb(24, 96, 230);
+}
+.add{
+    display: block;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 62%;
+    margin-bottom: 2%;
+    width: 13%;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(26, 93, 218, 0.322);
+    border-style: none;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 96, 230);
+}
+.remove{
+    display: block;
+    margin-top: 2%;
+    margin-left:25% ;
+    margin-bottom: 2%;
+    width: 18%;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(26, 93, 218, 0.322);
+    border-style: none;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 96, 230);
+}
+.mob{
+    margin-top: 2%;
+    
+}
